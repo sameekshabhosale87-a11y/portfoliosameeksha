@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samiksha Bhosale| AI & DS Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Load Lucide Icons for aesthetic emojis/icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #faf5ff; /* Very light Purple (Tailwind bg-purple-50) */
+        }
+        .section-header {
+            border-left: 6px solid #6366f1; /* Vibrant Indigo/Purple accent */
+            padding-left: 1rem;
+        }
+        .text-accent {
+            color: #6366f1; /* Vibrant Indigo/Purple */
+        }
+        .bg-accent {
+            background-color: #6366f1; /* Vibrant Indigo/Purple */
+        }
+        .hover\:bg-accent-dark:hover {
+            background-color: #4f46e5; /* Slightly darker indigo on hover */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-lg sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-accent">Samiksha Bhosale</div>
+            <nav class="space-x-4 hidden md:flex">
+                <a href="#home" class="text-gray-600 hover:text-accent transition duration-300">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-accent transition duration-300">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-accent transition duration-300">Skills</a>
+                <a href="#projects" class="text-gray-600 hover:text-accent transition duration-300">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-accent transition duration-300">Contact</a>
+            </nav>
+            <button class="md:hidden text-gray-600 hover:text-accent">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-20">
+
+        <!-- HOME / INTRODUCTION -->
+        <section id="home" class="py-16 md:py-24 bg-white rounded-xl shadow-xl p-8 mb-16 transition hover:shadow-2xl">
+            <div class="flex flex-col md:flex-row items-center md:space-x-12">
+                <div class="md:w-3/5">
+                    <p class="text-lg font-medium text-gray-500 mb-2">Hello, I'm</p>
+                    <h1 class="text-4xl sm:text-6xl font-extrabold text-gray-900 leading-tight mb-4">Samiksha Bhosale</h1>
+                    <p class="text-xl text-gray-600 mb-6">
+                        I am a B.Tech Student (AI & DS) at **Zeal College of Research and Engineering** with strong interests in Python, Data Science, Data Visualization, and Cloud Technologies.
+                    </p>
+                    <p class="text-lg text-gray-700 mb-8">
+                        I enjoy building projects, solving real-world problems, and continuously improving my technical skills.
+                        <span role="img" aria-label="Rocket">🚀</span>
+                        <span role="img" aria-label="Graduation Cap">🎓</span>
+                    </p>
+                    <a href="#projects" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-accent hover:bg-accent-dark transition duration-300">
+                        View Projects <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                    </a>
+                </div>
+                <!-- Placeholder for Profile Picture -->
+                <div class="md:w-2/5 mt-8 md:mt-0 flex justify-center">
+                    <img src="https://placehold.co/250x250/6366f1/FFFFFF/png?text=Profile+Pic" alt="Srujamee Desai Profile Picture" class="rounded-full shadow-2xl border-4 border-indigo-200">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME -->
+        <section id="about" class="mb-16 bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-3xl font-bold section-header text-gray-900 mb-8 flex items-center">
+                <i data-lucide="user" class="w-6 h-6 mr-3 text-accent"></i> About Me
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg">
+                <div class="space-y-3">
+                    <p><span class="font-semibold text-accent">Name:</span> Samiksha Bhosale</p>
+                    <p><span class="font-semibold text-accent">Course:</span> B.Tech in Artificial Intelligence & Data Science</p>
+                    <p><span class="font-semibold text-accent">College:</span> Zeal College of Research and Engineering</p>
+                    <p><span class="font-semibold text-accent">Year:</span> Second Year (Pursuing)</p>
+                </div>
+                <div class="space-y-3">
+                    <p><span class="font-semibold text-accent">Location:</span> Narhe, Pune</p>
+                    <p><span class="font-semibold text-accent">Email:</span> sameekshabhosale87@gmail.com</p>
+                    <p><span class="font-semibold text-accent">Contact No.:</span> +91 93092 47273</p>
+                    <p class="text-sm text-gray-500 italic">I am dedicated to learning advanced skills in AI and Data Science while building foundational knowledge in programming.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="mb-16 bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-3xl font-bold section-header text-gray-900 mb-8 flex items-center">
+                <i data-lucide="settings" class="w-6 h-6 mr-3 text-accent"></i> Skills
+            </h2>
+
+            <div class="space-y-6">
+                <!-- Programming Languages -->
+                <div class="border-b pb-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3 flex items-center">Programming Languages <i data-lucide="code" class="w-5 h-5 ml-2"></i></h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-4 py-1 rounded-full bg-yellow-100 text-yellow-800 text-sm font-medium">Basic Python</span>
+                        <span class="px-4 py-1 rounded-full bg-blue-100 text-blue-800 text-sm font-medium">C / C++ (Basics)</span>
+                        <span class="px-4 py-1 rounded-full bg-emerald-100 text-emerald-800 text-sm font-medium">SQL (Basic)</span>
+                    </div>
+                </div>
+                
+                <!-- Data & AI Skills -->
+                <div class="border-b pb-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3 flex items-center">Data & AI Skills <i data-lucide="activity" class="w-5 h-5 ml-2"></i></h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-4 py-1 rounded-full bg-orange-100 text-orange-800 text-sm font-medium">Microsoft Power BI</span>
+                        <span class="px-4 py-1 rounded-full bg-pink-100 text-pink-800 text-sm font-medium">Machine Learning (Learning Advance)</span>
+                        <span class="px-4 py-1 rounded-full bg-teal-100 text-teal-800 text-sm font-medium">Data Analysis (Foundational)</span>
+                    </div>
+                </div>
+
+                <!-- Web & Office Skills -->
+                <div class="border-b pb-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3 flex items-center">Office & Tools <i data-lucide="monitor" class="w-5 h-5 ml-2"></i></h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-4 py-1 rounded-full bg-gray-100 text-gray-800 text-sm font-medium">Microsoft Excel, Word, Presentation</span>
+                        <span class="px-4 py-1 rounded-full bg-red-100 text-red-800 text-sm font-medium">HTML / CSS (Optional)</span>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3 flex items-center">Tools <i data-lucide="tool" class="w-5 h-5 ml-2"></i></h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-4 py-1 rounded-full bg-gray-200 text-gray-700 text-sm font-medium">Jupyter Notebook / Google Colab (Placeholder)</span>
+                        <span class="px-4 py-1 rounded-full bg-gray-200 text-gray-700 text-sm font-medium">Git & GitHub (Placeholder)</span>
+                        <span class="px-4 py-1 rounded-full bg-gray-200 text-gray-700 text-sm font-medium">VS Code (Placeholder)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="mb-16 bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-3xl font-bold section-header text-gray-900 mb-8 flex items-center">
+                <i data-lucide="zap" class="w-6 h-6 mr-3 text-accent"></i> Projects
+            </h2>
+            
+            <div class="space-y-8 mt-6">
+                <!-- Project 1: Email Spam Classifier (ML Focus) -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-bold text-accent mb-3 flex items-center">
+                        <i data-lucide="mail-check" class="w-5 h-5 mr-2"></i> Project 1: Email Spam Classifier
+                    </h3>
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-2/3 space-y-3">
+                            <p class="text-gray-700">
+                                **Description:** Built a binary classification Machine Learning model using Python (Scikit-learn) and Natural Language Processing (NLP) techniques to accurately classify incoming messages as 'spam' or 'ham' (not spam). Showcases skills in data cleaning, feature extraction (Vectorization), model training, and performance evaluation.
+                            </p>
+                            <p class="font-medium">**Tech Stack:** Python, Scikit-learn, NLP, Jupyter Notebook</p>
+                            <a href="[GitHub Repository Link]" target="_blank" class="text-accent hover:text-indigo-700 font-semibold flex items-center">
+                                GitHub Link (Placeholder) <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                        <div class="md:w-1/3">
+                            <!-- Placeholder Screenshot -->
+                            <img src="https://placehold.co/400x250/A5B4FC/FFFFFF?text=ML+Classifier+Screenshot" alt="Email Spam Classifier Screenshot" class="w-full rounded-lg border border-gray-300">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Retail Sales Performance Dashboard (Data Viz Focus) -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-bold text-accent mb-3 flex items-center">
+                        <i data-lucide="line-chart" class="w-5 h-5 mr-2"></i> Project 2: Retail Sales Performance Dashboard
+                    </h3>
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-2/3 space-y-3">
+                            <p class="text-gray-700">
+                                **Description:** Analyzed a transactional dataset (e.g., e-commerce sales) to identify key performance indicators (KPIs) like revenue, profit, and regional trends. Designed and developed an interactive dashboard to visualize sales performance and inventory status for executive decision-making.
+                            </p>
+                            <p class="font-medium">**Tech Stack:** Microsoft Power BI, SQL (Data Import/Query), Data Analysis</p>
+                            <a href="[GitHub Repository Link]" target="_blank" class="text-accent hover:text-indigo-700 font-semibold flex items-center">
+                                GitHub Link (Placeholder) <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                        <div class="md:w-1/3">
+                            <!-- Placeholder Screenshot -->
+                            <img src="https://placehold.co/400x250/A5B4FC/FFFFFF?text=Power+BI+Dashboard" alt="Sales Dashboard Screenshot" class="w-full rounded-lg border border-gray-300">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS & ACHIEVEMENTS -->
+        <section id="certifications" class="mb-16 bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-3xl font-bold section-header text-gray-900 mb-8 flex items-center">
+                <i data-lucide="award" class="w-6 h-6 mr-3 text-accent"></i> Education & Achievements
+            </h2>
+            <ul class="list-disc list-inside space-y-4 text-lg text-gray-700 pl-4">
+                <li class="flex items-start"><i data-lucide="briefcase" class="w-5 h-5 mt-1 mr-3 text-indigo-600 flex-shrink-0"></i> **Internship (1 Month, 2025):** Completed internship from **SCCOPEN TRAINING SCHOOL, BALAJI NAGAR, PUNE**.</li>
+                <li class="flex items-start"><i data-lucide="graduation-cap" class="w-5 h-5 mt-1 mr-3 text-accent flex-shrink-0"></i> **B.Tech (AI & DS):** Pursuing from Zeal College of Research and Engineering (2024-2025: Completed 1st year).</li>
+                <li class="flex items-start"><i data-lucide="check-circle" class="w-5 h-5 mt-1 mr-3 text-green-500 flex-shrink-0"></i> **Higher Secondary Certificate (2023):** Completed 12th with **75%** (Maharashtra Board).</li>
+                <li class="flex items-start"><i data-lucide="check-circle" class="w-5 h-5 mt-1 mr-3 text-green-500 flex-shrink-0"></i> **Secondary Education (2021):** Completed 10th with **86%** (Central Board of Secondary Education).</li>
+                <li class="flex items-start"><i data-lucide="chevrons-right" class="w-5 h-5 mt-1 mr-3 text-accent flex-shrink-0"></i> Participation in Hackathons / Competitions (To be added).</li>
+            </ul>
+        </section>
+
+        <!-- IMPORTANT LINKS -->
+        <section id="links" class="mb-16 bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-3xl font-bold section-header text-gray-900 mb-8 flex items-center">
+                <i data-lucide="link" class="w-6 h-6 mr-3 text-accent"></i> Important Links
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <a href="https://github.com/SrujameeDesai" target="_blank" class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition duration-300 shadow">
+                    <i data-lucide="github" class="w-6 h-6 mr-3 text-gray-800"></i>
+                    <span class="font-medium text-gray-700">GitHub Profile</span>
+                </a>
+                <a href="https://www.linkedin.com/in/SrujameeDesai" target="_blank" class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition duration-300 shadow">
+                    <i data-lucide="linkedin" class="w-6 h-6 mr-3 text-blue-600"></i>
+                    <span class="font-medium text-gray-700">LinkedIn Profile</span>
+                </a>
+                <a href="https://www.hackerrank.com/SrujameeDesai" target="_blank" class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition duration-300 shadow">
+                    <i data-lucide="feather" class="w-6 h-6 mr-3 text-green-600"></i>
+                    <span class="font-medium text-gray-700">HackerRank Profile</span>
+                </a>
+                <a href="https://leetcode.com/SrujameeDesai" target="_blank" class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition duration-300 shadow">
+                    <i data-lucide="brain" class="w-6 h-6 mr-3 text-yellow-600"></i>
+                    <span class="font-medium text-gray-700">LeetCode Profile</span>
+                </a>
+            </div>
+            
+            <div class="mt-8 p-6 bg-indigo-50 rounded-lg text-center shadow-inner">
+                <p class="text-xl font-semibold text-indigo-800 mb-4 flex items-center justify-center">
+                    <i data-lucide="file-text" class="w-6 h-6 mr-3"></i> Resume (PDF Download)
+                </p>
+                <!-- NOTE: The link is set to the name of the file provided in the context -->
+                <a href="resume.pdf" target="_blank" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-accent hover:bg-accent-dark transition duration-300 shadow-md">
+                    Click to Download My Resume
+                </a>
+            </div>
+        </section>
+
+        <!-- CONTACT ME -->
+        <section id="contact" class="mb-16 bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-3xl font-bold section-header text-gray-900 mb-8 flex items-center">
+                <i data-lucide="mail" class="w-6 h-6 mr-3 text-accent"></i> Contact Me
+            </h2>
+            <p class="text-xl text-gray-700 mb-6">Have a project idea or collaboration in mind? Feel free to reach out!</p>
+            <div class="space-y-4 text-lg">
+                <p class="flex items-center"><i data-lucide="at-sign" class="w-5 h-5 mr-3 text-accent"></i> **Email:** sameekshabhosale87@gmail.com
+            </p>
+                <p class="flex items-center"><i data-lucide="phone" class="w-5 h-5 mr-3 text-accent"></i> **Contact No:** +91 93092 47273</p>
+                <p class="flex items-center"><i data-lucide="linkedin" class="w-5 h-5 mr-3 text-accent"></i> **LinkedIn:** <a href="https://www.linkedin.com/in/SrujameeDesai" target="_blank" class="text-accent hover:underline">SrujameeDesai</a></p>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- FOOTER SECTION - Simplified to "Thank You" -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-3xl font-extrabold text-white">Thank You!</h3>
+            <p class="text-lg mt-2 text-gray-400">I appreciate you reviewing my portfolio.</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
